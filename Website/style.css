@@ -30,6 +30,16 @@ html, body {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
 
 .main-header {
     background-color: rgba(0, 0, 0, 0.1);
@@ -37,4 +47,24 @@ html, body {
     background-blend-mode: multiply;
     background-size: cover;
     padding: 25px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    color: #fff;
+}
+
+.band-name-large {
+    font-size: 7em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.contain {
+    max-width: 500px;
 }
