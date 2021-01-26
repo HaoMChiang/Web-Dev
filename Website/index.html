@@ -3,108 +3,85 @@
 <head>
     <title>The Generics</title>
     <meta name="description" content="This is a practice of making website for generics">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav" >
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="store.html">STORE</a></li>
                 <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
-        <hr>
-        <h1>The Generics</h1>
-        <button type="button">Get Our Latest News</button>
-        <br>
-        <br>
-        <!--Background-->
-        <button type="button">&#9658</button>
+        <h1 class="band-name band-name-large">The Generics</h1>
+        <div class="container">
+            <button class="btn btn-header" type="button">Get Our Latest News</button>
+        </div>
+        <button class="btn btn-header btn-play" type="button">&#9658</button>
     </header>
-    <section>
-        <h2>Tour</h2>
+    <section class="container content-section">
+        <h2 class="section-header">Tour</h2>
         <div>
-            <div>
-                <strong>July 16</strong>
-                &lt;&gt;
-                <span>Detroit, MI</span>
-                &lt;&gt;
-                <span>Energy Music</span>
-                &lt;&gt;
-                <button type="button">Buy Tickets</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">July 16</span>
+                <span class="tour-item tour-city">Detroit, MI</span>
+                <span class="tour-item tour-arena">Energy Music</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">Buy Tickets</button>
             </div>
-            <div>
-                <strong>Oct 23</strong>
-                &lt;&gt;
-                <span>Toronto, ON</span>
-                &lt;&gt;
-                <span>Energy Animate</span>
-                &lt;&gt;
-                <button type="button">Buy Tickets</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">Oct 23</span>
+                <span class="tour-item tour-city">Toronto, ON</span>
+                <span class="tour-item tour-arena">Energy Animate</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">Buy Tickets</button>
             </div>
-            <div>
-                <strong>Jan 05</strong>
-                &lt;&gt;
-                <span>Taipei, Taiwan</span>
-                &lt;&gt;
-                <span>Energy Comic</span>
-                &lt;&gt;
-                <button type="button">Buy Tickets</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">Jan 05</span>
+                <span class="tour-item tour-city">Taipei, Taiwan</span>
+                <span class="tour-item tour-arena">Energy Comic</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">Buy Tickets</button>
             </div>
-            <div>
-                <strong>July 02</strong>
-                &lt;&gt;
-                <span>Tokyo, Japan</span>
-                &lt;&gt;
-                <span>Energy Video</span>
-                &lt;&gt;
-                <button type="button">Buy Tickets</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">July 02</span>
+                <span class="tour-item tour-city">Tokyo, Japan</span>
+                <span class="tour-item tour-arena">Energy Video</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">Buy Tickets</button>
             </div>
-            <div>
-                <strong>Feb 29</strong>
-                &lt;&gt;
-                <span>London, UK</span>
-                &lt;&gt;
-                <span>Energy Food</span>
-                &lt;&gt;
-                <button type="button">Buy Tickets</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">Feb 29</span>
+                <span class="tour-item tour-city">London, UK</span>
+                <span class="tour-item tour-arena">Energy Food</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">Buy Tickets</button>
             </div>
-            <div>
-                <strong>April 19</strong>
-                &lt;&gt;
-                <span>Paris, French</span>
-                &lt;&gt;
-                <span>Energy Restaurant</span>
-                &lt;&gt;
-                <button type="button">Buy Tickets</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">April 19</span>
+                <span class="tour-item tour-city">Paris, French</span>
+                <span class="tour-item tour-arena">Energy Restaurant</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">Buy Tickets</button>
             </div>
         </div>
     </section>
-    <footer>
-        <h3>The Generics</h3>
-        <ol>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank">
-                    <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/YouTube-Emblem.png" height="50" width="50">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/" target="blank">
-                    <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/Facebook-logo.jpg" height="50" width="50">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="blank">
-                    <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/instagram-logo-svg-vector-for-print.svg" height="50" width="50">
-                </a>
-            </li>
-        </ol>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">The Generics</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/YouTube-Emblem.png" height="50" width="50">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="blank">
+                        <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/Facebook-logo.jpg" height="50" width="50">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="blank">
+                        <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/instagram-logo-svg-vector-for-print.svg" height="50" width="50">
+                    </a>
+                </li>
+            </ul>
+        </div>
     </footer>
 
 
