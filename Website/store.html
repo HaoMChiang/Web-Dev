@@ -3,90 +3,76 @@
 <head>
     <title>The Generics | Store</title>
     <meta name="description" content="This is a practice of making website for generics">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="store.html">STORE</a></li>
                 <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
-        <hr>
-        <h1>The Generics</h1>
-        <button type="button">Get Our Latest News</button>
-        <br>
-        <br>
-        <!--Background-->
-        <button type="button">&#9658</button>
+        <h1 class="band-name band-name-large">The Generics</h1>
     </header>
-    <section>
-        <h2>Music</h2>
-        <div>
-            <div>
-                <strong>Album 1</strong>
+    <section class="container content-section">
+        <h2 class="section-header">Music</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Album 1</span>
+                <img class="shop-item-image" src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/CSS3_logo_and_wordmark.svg.png">
+                <div class="shop-item-detail">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+                </div>
             </div>
-            <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/CSS3_logo_and_wordmark.svg.png" width="200" height="200">
-            <div>
-                <span>$12.99</span>
-                <button role="button">Add to Cart</button>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 2</span>
+                <img class="shop-item-image" src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/download (1).png">
+                <div class="shop-item-detail">
+                    <span class="shop-item-price">$15.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+                </div>
             </div>
-        </div>
-        <div>
-            <div>
-                <strong>Album 2</strong>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 3</span>
+                <img class="shop-item-image" src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/download.png">
+                <div class="shop-item-detail">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+                </div>
             </div>
-            <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/download (1).png" width="200" height="200">
-            <div>
-                <span>$15.99</span>
-                <button role="button">Add to Cart</button>
-            </div>
-        </div>
-        <div>
-            <div>
-                <strong>Album 3</strong>
-            </div>
-            <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/download.png" width="200" height="200">
-            <div>
-                <span>$9.99</span>
-                <button role="button">Add to Cart</button>
-            </div>
-        </div>
-        <div>
-            <div>
-                <strong>Album 4</strong>
-            </div>
-            <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/f1eaa7278f64e27128e062a3de918265.png" width="200" height="200">
-            <div>
-                <span>$12.99</span>
-                <button role="button">Add to Cart</button>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 4</span>
+                <img class="shop-item-image" src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/f1eaa7278f64e27128e062a3de918265.png">
+                <div class="shop-item-detail">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+                </div>
             </div>
         </div>
     </section>
     <section>
         <h2>Merch</h2>
-        <div>
-            <div>
-                <strong>Python</strong>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Python</span>
+                <img class="shop-item-image" src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67.png">
+                <div>
+                    <span class="shop-item-price">$78.99</span>
+                    <button class="shop-item-button btn btn-primary" role="button">Add to Cart</button>
+                </div>
             </div>
-            <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67.png" width="200" height="200">
-            <div>
-                <span>$78.99</span>
-                <button role="button">Add to Cart</button>
-            </div>
-        </div>
-        <div>
-            <div>
-                <strong>Angular</strong>
-            </div>
-            <img src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/Angular_full_color_logo.svg.png" width="200" height="200">
-            <div>
-                <span>$4.99</span>
-                <button role="button">Add to Cart</button>
+            <div class="shop-item">
+                <span class="shop-item-title">Angular</span>
+                <img class="shop-item-image" src="/Users/hao-mingchiang/Desktop/Web_Dev/Website/image/Angular_full_color_logo.svg.png">
+                <div>
+                    <span class=shop-item-price>$4.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">Add to Cart</button>
+                </div>
             </div>
         </div>
-
     </section>
     <section>
         <h2>Cart</h2>
